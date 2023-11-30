@@ -1,0 +1,54 @@
+.recuadro {
+  background-color: #29292e;
+  width: 364px;
+  height: 83px;
+  margin: 10px;
+  border-radius: 8px;
+}
+.letra1 {
+  color: var(--neutral-colors-white, #fff);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+  margin-top: 15px;
+  margin-left: 16px;
+}
+.letra2 {
+  color: #c4c4cc;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  margin-top: -20px;
+  margin-left: 25px;
+}
+.imagen1 {
+  width: 67px;
+  height: 67px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+.imagen2 {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  margin-top: 30px;
+  margin-right: 1px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  background-color: #29292e;
+  border-radius: 8px;
+  background: var(--platform-aliases-shape-secundria, #29292e);
+  margin: 10px;
+  width: 364px;
+  height: 83px;
+}
